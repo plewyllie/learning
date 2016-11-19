@@ -15,6 +15,6 @@ int main()
         printf("%d\n", temp2);
         temp2++;
     }
-    while(temp1<=limite);
+    while(temp1+temp2<=limite);
     return 0;
 }
