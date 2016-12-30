@@ -1,2 +1,2 @@
 # learning
-helping in C :-)
+helping the survivor in C :-)
