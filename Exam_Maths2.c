@@ -4,6 +4,9 @@
 
 #define DEBUG
 
+/**
+ * affiche la matrice avec 'l' lignes et 'c' colonnes
+ */
 void afficher_matrice(int l, int c, double matrice[l][c])
 {
     int i, j;
