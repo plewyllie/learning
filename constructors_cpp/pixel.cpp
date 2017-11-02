@@ -12,3 +12,7 @@ Pixel::Pixel(int a, int b) : Forme::Forme(a ,b) {
 void Pixel::print_un_truc() {
   std::cout << "Je suis un pixel!" << std::endl;
 }
+
+void testfunc(Pixel p) {
+  std::cout << p.a << std::endl;
+}

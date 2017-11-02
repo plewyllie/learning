@@ -10,6 +10,8 @@ class Pixel : public Forme {
 
     void print_un_truc();
 
+    friend void testfunc(Pixel p);
+
 };
 
 #endif
