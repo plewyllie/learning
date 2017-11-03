@@ -8,6 +8,8 @@ class Pixel : public Forme {
     Pixel();
     Pixel(int a, int b);
 
+    Pixel(const Pixel&);
+
     void print_un_truc();
 
     friend void testfunc(Pixel p);

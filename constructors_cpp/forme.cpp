@@ -14,6 +14,11 @@ Forme::Forme(int a, int b) {
   this->b = b;
 }
 
+Forme::Forme(const Forme &f) {
+  this->a = f.a;
+  this->b = f.b;
+}
+
 void Forme::print_value_a() {
   std::cout << a << std::endl;
 }

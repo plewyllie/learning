@@ -10,6 +10,7 @@ class Forme {
     Forme();
     Forme(int a, int b);
 
+    Forme(const Forme &f);
 
     void print_value_a();
     void print_value_b();

@@ -7,6 +7,12 @@ void print_une_forme(Forme* f) {
 
 int main() {
 
+  Forme origin;
+  Forme copied(origin);
+
+  Pixel originp;
+  Pixel copiedp(originp);
+
   /* constructeurs */
   Forme* f = new Forme;
   f->print_value_a();
